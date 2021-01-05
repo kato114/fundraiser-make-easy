@@ -1,0 +1,162 @@
+
+/*----------------------------------------*/
+/* 19. About Us CSS
+/*----------------------------------------*/
+.about-content h3, .single-misson h3, .ht-single-about h3 {
+  font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 22px;
+  text-transform: capitalize;
+}
+.about-content h3{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.about-content h3 span,
+.single-misson h3 span {
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+.kiosk-about-list li {
+    line-height: 28px;
+    display: flex;
+}
+
+.kiosk-about-list li a:hover {
+    color: #333;
+}
+.kiosk-about-list span {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.progress {
+    background: #ebebeb none repeat scroll 0 0;
+    border-radius: 30px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 20px;
+    overflow: visible;
+}
+
+.progress-bar {
+    border-radius: 30px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: relative;
+}
+
+.progress-bar .text-top {
+    background: #363f4d none repeat scroll 0 0;
+    border-radius: 50%;
+    font-size: 12px;
+    height: 42px;
+    left: 0;
+    line-height: 42px;
+    position: absolute;
+    text-transform: uppercase;
+    top: -9px;
+    width: 42px;
+}
+
+.skill-bar-item {
+    padding-bottom: 11px;
+    position: relative;
+}
+.skill-bar-item +.skill-bar-item{
+    margin-top: 35px;
+}
+.skill-bar-item > span {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.skill-bar {
+    overflow: hidden;
+    padding-top: 9px;
+}
+
+.ht-single-about h3 {
+    font-size: 22px;
+}
+.ht-single-about > h5 {
+    color: #444444;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 9px;
+    text-transform: capitalize;
+}
+.ht-single-about p+p{
+    margin-top: 10px;
+}
+.ht-about-work {
+    margin-bottom: 27px;
+    position: relative;
+}
+
+.ht-work-text > h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding-top: 8px;
+}
+
+.ht-work-text > h5 a {
+    color: #444444;
+    font-size: 15px;
+}
+
+.ht-work-text > h5 a:hover {
+    color: #333;
+}
+
+.ht-work-text > p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ht-about-work > span {
+    background: #ebebeb none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #7d7d7d;
+    display: block;
+    float: left;
+    height: 42px;
+    line-height: 43px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 42px;
+    margin-top: 4px;
+}
+
+.ht-work-text {
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.ht-about-work:hover > span {
+    background: #222222 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.ht-about-work:last-child {
+    margin: 0;
+}

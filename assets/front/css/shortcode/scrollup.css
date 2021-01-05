@@ -1,0 +1,28 @@
+/*----------------------------------------*/
+/* 17. ScrollUp CSS
+/*----------------------------------------*/
+#scrollUp {
+  position: fixed;
+  bottom: 65px;
+  right: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #999;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #333;
+  z-index: 999;
+}
+
+#scrollUp i {
+  font-size: 25px;
+  line-height: 38px;
+}
+
+#scrollUp:hover {
+  border-color: #fff;
+}

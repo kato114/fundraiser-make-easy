@@ -1,0 +1,306 @@
+/*----------------------------------------*/
+/* 4. Product CSS
+/*----------------------------------------*/
+.section-title h2 {
+  color: #333;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: capitalize;
+  text-align: center;
+}
+.section-title h2 i {
+  background: #333 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 11px;
+  height: 20px;
+  left: 50%;
+  line-height: 20px;
+  margin-left: -10px;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 82%;
+  width: 20px;
+}
+.section-title h2::before {
+  background: #333 none repeat scroll 0 0;
+  border-radius: 100%;
+  bottom: -1px;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -6%;
+  position: absolute;
+  width: 12%;
+}
+.new-products {
+  background: #fff;
+  z-index: 999;
+  position: relative;
+}
+.new-products .product-list li, .best-selling-items .product-list li {
+  cursor: pointer;
+  display: inline-block;
+}
+.new-products .product-list li a, .best-selling-items .product-list li a {
+  padding: 11px 15px;
+  display: block;
+  font-size: 18px;
+  color: #363f4d;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.product-list li a.active,
+.best-selling-items .product-list li a.active {
+  background: #333;
+  color: #fff;
+}
+.new-products .product-list {
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}
+.new-products .single-product {
+padding: 0px !important;
+}
+.tab-content.jump > .tab-pane.active {
+  display: block;
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+}
+.tab-content.jump > .tab-pane {
+  display: block;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.single-product {
+  position: relative;
+  background: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid transparent;
+  padding: 15px 15px 30px 15px;
+  overflow: hidden;
+}
+.kiosk-top-product {
+  background: #f6f6f6;
+}
+.single-product:hover{
+  border: 1px solid #ddd;
+}
+.kiosk-product-img {
+  position: relative;
+  margin-bottom: 10px;
+}
+#list-view .kiosk-product-img{
+  margin-bottom: 0px !important;
+}
+.kiosk-product-img img {
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.kiosk-product-img .second-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  opacity: 0;
+}
+
+.single-product:hover .kiosk-product-img .second-img {
+  opacity: 1;
+}
+
+.kiosk-product-content {
+  text-align: center;
+}
+.kiosk-product-content h4 a {
+  color: #363f4d;
+  display: block;
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.kiosk-product-content .product-rating {
+  margin-bottom: 5px;
+}
+
+.kiosk-product-action {
+  bottom: 0px;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  z-index: 99;
+}
+.kiosk-top-product .kiosk-product-action {
+  bottom: inherit;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) !important;
+}
+.kiosk-collection .owl-item.owl-item.active.last,
+.best-selling-pro .owl-item.owl-item.last.active {
+  border-right: none;
+}
+
+.single-product:hover .kiosk-product-action {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+.product-area .single-product:hover .kiosk-product-action {
+  bottom: 8px !important;
+}
+.product-area .kiosk-action-content {
+  padding: 10px 0px 10px 0px !important;
+}
+.new-products .single-product:hover .kiosk-product-action {
+  bottom: 7px !important;
+}
+.new-products .kiosk-action-content {
+  padding: 10px 0px 10px 0px !important;
+}
+.kiosk-action-content a {
+  display: inline-block;
+}
+
+.kiosk-action-content a {
+  margin-left: 5px;
+}
+
+.kiosk-action-content a {
+  background: #eef0f1 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #555;
+  display: inline-block;
+  font-size: 16px;
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+  text-align: center;
+  -webkit-transition: all 0.15s ease 0s;
+  transition: all 0.15s ease 0s;
+  width: 33px;
+}
+.kiosk-action-content a.add-cart {
+  width: 115px;
+  font-size: 12px;
+  background: #333;
+  color: #fff;
+  text-transform: uppercase;
+}
+.home1-product .kiosk-action-content a.add-cart {
+  font-size: 25px !important;
+  background: #fff !important;
+  color: #000 !important;
+}
+.kiosk-action-content {
+  width: 100%;
+  background: #fff;
+}
+.home1-product .kiosk-action-content a:hover {
+  color: #000;
+}
+
+.kiosk-action-content a {
+  width: 35px;
+}
+
+
+.kiosk-top-product .kiosk-product-action {
+  background: transparent;
+}
+.kiosk-top-product .kiosk-action-content {
+  background: transparent;
+  width: 100%;
+  text-align: center;
+}
+
+.double-product .single-product {
+  border-bottom: 1px solid hsl(0, 0%, 93%);
+  padding: 25px 0;
+}
+
+.double-product .single-product:last-child {
+  border-bottom: 0px solid #ddd;
+  padding-bottom: 0;
+}
+
+.random-pro-active.slider-right-content .single-product {
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 0px solid transparent;
+}
+
+.random-pro-active.slider-right-content .single-product:last-child {
+  border-bottom: 0px solid #eee;
+}
+
+.random-pro-active.slider-right-content .owl-item:not(.active) + .owl-item.active .single-product,
+.random-pro-active.slider-right-content .owl-item.active:first-child .single-product {
+  border-left: 0px solid #eee;
+}
+.kiosk-brand-area {
+  background: #f6f6f6;
+}
+.kiosk-brand.owl-carousel .owl-item img {
+  max-width: 100%;
+}
+.kiosk-brand.owl-carousel .single-brand {
+  text-align: center;
+}
+
+.kiosk-brand.owl-carousel .single-brand img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.kiosk-brand.owl-carousel .single-brand {
+  text-align: center;
+}
+.tab-bg{
+  position: relative;
+  background: #fff;
+}
+
+.product-back {
+  transform: rotateY(180deg);
+}
+
+.single-product:hover .product-front {
+  transform: rotateY(180deg);
+}
+
+.single-product:hover .product-back {
+  transform: rotateY(0deg);
+}

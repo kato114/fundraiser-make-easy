@@ -1,0 +1,123 @@
+/*----------------------------------------*/
+/* 7. Footer CSS
+/*----------------------------------------*/
+.single-footer {
+  color: #fff;
+}
+.single-footer h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 28px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.kiosk-contact-address {
+  margin-top: 34px;
+}
+.kiosk-contact-address.address-2 {
+  margin-top: 0px !important;
+}
+.kiosk-contact-address > span {
+display: flex;
+line-height: 24px;
+margin-top: 10px;
+}
+.kiosk-contact-address > span i {
+    font-size: 14px;
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+    height: 30px;
+    border: 1px solid #ddd;
+    line-height: 30px;
+    border-radius: 50%;
+}
+}
+.kiosk-contact-address span + span {
+  margin-top: 12px;
+}
+.payment-mth{margin-top: 30px;}
+.footer-content ul li:not(:last-child) {
+  line-height: 30px;
+}
+.footer-content ul li a {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.footer-link-list li {
+  color: #fff;
+  margin-bottom: 8px;
+}
+.footer-list li a {
+  color: #fff;
+}
+
+.footer-middle-content {
+  border-top: 1px solid #2d3846;
+  border-bottom: 1px solid #2d3846;
+}
+
+.footer-link-list li span.title {
+  background: #37475a none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  margin-right: 10px;
+  padding: 10px 32px 10px 17px;
+}
+
+.footer-link-list li a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer-link-list li a:hover {
+  color: #fff;
+}
+.footer-bottom {
+  border-top: 1px solid #444;
+}
+.footer-bottom-content p a:hover {
+  color: #fff;
+}
+
+.kiosk-footer-social li {
+  display: inline-block;
+  margin-left: 0px;
+}
+.footer-top-social {
+  margin-top: 10px;
+}
+.footer-top-social li {
+  margin-right: 10px !important;
+  text-align: center;
+}
+.footer-top-social li a {
+  color: #fff !important;
+}
+.kiosk-footer-social li a {
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  line-height: 43px;
+  padding: 0 3px;
+  text-align: center;
+  text-decoration: none;
+}
+.kiosk-footer-social li a:hover {
+  color: #fff;
+}
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  color: #fff;
+}
+.footer-bottom-content a {
+  color: #fff;
+}

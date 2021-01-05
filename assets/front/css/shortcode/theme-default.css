@@ -1,0 +1,77 @@
+/*----------------------------------------*/
+/* 1. Theme Default CSS
+/*----------------------------------------*/
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color: #333;
+  font-size: 14px;
+  line-height: 24px;
+}
+.group-title {
+  color: #363f4d;
+  padding: 15px 25px;
+  position: relative;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.universal-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.universal-margin {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.border-default {
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  padding-bottom: 30px;
+}
+.group-title h2 {
+  font-size: 23px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.title-border {
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 10px;
+}
+.zoom {
+  position: relative;
+  overflow: hidden;
+}
+.zoom::after {
+  background-color: rgba(255, 255, 255, 0.4);
+  bottom: 0;
+  content: "";
+  height: 0;
+  left: 0;
+  margin: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.6s ease-in 0s;
+  width: 0;
+  z-index: 1;
+}
+
+.zoom:hover:after {
+  height: 100%;
+  width: 100%;
+}

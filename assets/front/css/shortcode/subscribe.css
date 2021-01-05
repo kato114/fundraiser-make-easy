@@ -1,0 +1,46 @@
+/*----------------------------------------*/
+/* 6. Subscribe
+/*----------------------------------------*/
+.news-desc h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.news-desc p {
+  font-size: 16px;
+}
+.kiosk-subscribe .subscribe {
+  border: 1px solid #ddd;
+  color: #666;
+  height: 50px;
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+.kiosk-subscribe {
+  position: relative;
+  max-width: 480px;
+  margin: auto;
+  margin-top: 25px;
+}
+.kiosk-subscribe .submit {
+  background: #333 none repeat scroll 0 0;
+  border: 0 none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+  height: 50px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  width: 120px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.kiosk-subscribe .submit:hover {
+  background: #303030;
+}

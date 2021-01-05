@@ -1,0 +1,278 @@
+/*----------------------------------------*/
+/* 3. Slider CSS
+/*----------------------------------------*/
+.slider-image img {
+  width: 100%;
+}
+.text-content-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nivo-caption p {
+  padding: 0;
+}
+.nivo-caption .banner-readmore a {
+  display: inline-block !important;
+  line-height: 39px;
+  border: 1px solid #999;
+  padding: 0 30px;
+  border-radius: 20px;
+  background: transparent;
+  color: #000;
+}
+
+.text-content h1 {
+  font-size: 50px;
+  line-height: 46px;
+  margin-top: 20px;
+  margin-bottom: 26px;
+}
+.slider-text a:hover {
+  background: #000;
+}
+.text-content h4{
+  font-size: 25px;
+}
+/* -- slider nav css -- */
+.slider-wrapper.theme-default {
+  position: relative;
+}
+
+.nivo-caption {
+  padding: 0;
+  height: 100%;
+  background:transparent;
+  opacity: 1;
+}
+
+/* nivo controlNav css */
+.nivo-controlNav {
+  padding: 0;
+  position: absolute;
+  z-index: 12;
+  bottom: 15px;
+  width: 100%;
+}
+
+.nivo-controlNav a {
+  font-size: 0;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background: #333 ;
+  margin: 0 7px;
+  display: inline-block;
+  line-height: 12px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.nivo-controlNav a.active {
+  opacity: 1;
+}
+
+/* -- slider right product css -- */
+.kiosk-top-product .slider-right-content .single-product::after {
+  content: "";
+  position: absolute;
+  height: 75px;
+  width: 1px;
+  background: #ddd;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+}
+.kiosk-top-product .slider-right-content .last .single-product::after{
+  display: none;
+}
+
+
+
+.kiosk-top-product .group-title{
+  margin-bottom: 4px;
+}
+.single-banner img {
+  width: 100%;
+}
+.side-product-list {
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+.side-product-list .group-title {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 0;
+}
+.slider-right-content .single-product {
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 25px 15px;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  position: relative;
+}
+.home1-product .single-product{
+  border-radius: 50%;
+  padding: 11px 11px 1px 11px !important;
+  width: 100%;
+  height: 100%;
+}
+.slider-right-content .single-product:hover{
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.slider-right-content .single-product:last-child {
+  border-bottom: 0px solid #eee;
+}
+
+.slider-right-content .last .single-product {
+  border-right: 0px solid #eee;
+}
+.slider-right-content .kiosk-product-img {
+  float: left;
+  width: 95px;
+  margin-bottom: 0;
+  margin-right: 8px;
+}
+.slider-right-content .kiosk-product-content {
+  overflow: hidden;
+  text-align: left;
+}
+.slider-right-content .kiosk-product-content h4 {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.slider-right-content .kiosk-product-content h4 a{
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.product-rating i {
+  color: #f9ba48;
+  font-size: 14px;
+  line-height: 20px;
+}
+.product-rating i:nth-child(n+4){
+  color: #444;
+}
+.price {
+  font-size: 14px;
+}
+.product-price {
+  padding-top: 20px;
+}
+.product-price span {
+  font-size: 15px;
+}
+.prev-price {
+  color: #666;
+  font-weight: normal;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.sticker-new, .sticker-sale {
+  background: #333;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 25px;
+  position: absolute;
+  left: -24px;
+  top: 12px;
+  padding: 1px 35px;
+  text-align: left;
+  text-transform: uppercase;
+  z-index: 9;
+  transform: rotate(-45deg);
+  margin: 0;
+}
+
+.sticker-sale {
+  background: #31a2e2;
+}
+
+.kiosk-collection .owl-nav div,
+.best-selling-pro .owl-nav div, .kiosk-blog .owl-nav div,
+.kiosk-top-active .owl-nav div, 
+.kiosk-related-product .owl-nav div, 
+.testimonial__container .dcare-arrow, .best-selling-items .owl-nav div {
+  background: #f1f1f1;
+  border: 1px solid #ebebeb;
+  color: #c2c4c3;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 3px;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  line-height: 30px;
+}
+
+.kiosk-collection .owl-nav div:hover,
+.best-selling-pro .owl-nav div:hover,
+.kiosk-blog .owl-nav div:hover,
+.kiosk-top-active .owl-nav div:hover,
+.kiosk-related-product .owl-nav div:hover,
+.testimonial__container .dcare-arrow:hover,
+.best-selling-items .owl-nav div:hover {
+  border-color: #333;
+  background: #333;
+  color: #fff;
+}
+
+.kiosk-collection .owl-nav div.owl-next,
+.best-selling-pro .owl-nav div.owl-next,
+.kiosk-blog .owl-nav div.owl-next,
+.kiosk-top-active .owl-nav div.owl-next,
+.kiosk-top-active .owl-nav div.owl-next,
+.kiosk-related-product .owl-nav div.owl-next,
+.testimonial__container .dcare-arrow.dcare-next {
+  left: auto;
+  right: 10px;
+}
+
+.kiosk-collection .owl-nav div,
+.best-selling-pro .owl-nav div,
+.kiosk-blog .owl-nav div,
+.kiosk-top-active .owl-nav div,
+.kiosk-related-product .owl-nav div,
+.testimonial__container .dcare-arrow,
+.best-selling-items .owl-nav div,
+.best-selling-items .owl-nav div {
+  background: transparent;
+  top: -54px;
+  right: 47px;
+  left: auto;
+}
+.testimonial__container .dcare-arrow,
+.best-selling-items .owl-nav div,
+.kiosk-top-active .owl-nav div,
+.kiosk-blog .owl-nav div {
+  top: -31px;
+}
+.best-selling-pro .owl-nav div,
+.kiosk-collection.more-e-pro .owl-nav div {
+  top: -57px;
+}
+.kiosk-collection .owl-nav div, {
+  right: 36px;
+}
+.kiosk-collection .owl-nav div.owl-next {
+  right: 0px;
+}

@@ -1,0 +1,382 @@
+/*----------------------------------------*/
+/* 12. Checkout CSS
+/*----------------------------------------*/
+.payment-accordion .panel-body {
+  padding: 10px 0 0;
+}
+.payment-accordion .panel-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+.coupon-area .coupon-info input {
+  background: transparent;
+  border: 1px solid #e5e5e5;
+}
+
+.coupon-area .coupon-info .checkout-coupon .code:focus {
+  border: 1px solid #e5e5e5;
+}
+
+.coupon-accordion h3 {
+  background-color: #f6f6f6;
+  border-top: 3px solid #333;
+  color: #515151;
+  font-size: 14px;
+  font-weight: 400;
+  list-style: outside none none;
+  margin: 0 0 2em;
+  padding: 1em 2em 1em 3.5em;
+  position: relative;
+  width: auto;
+  text-transform: capitalize;
+}
+
+.coupon-accordion h3::before {
+  color: #777;
+  content: "\f0f6";
+  display: inline-block;
+  font-family: 'FontAwesome';
+  left: 16px;
+  position: absolute;
+  top: 16px;
+}
+
+.coupon-accordion span {
+  cursor: pointer;
+  color: #6f6f6f;
+  -webkit-transition: .3s;
+  transition: .3s
+}
+
+.coupon-accordion span:hover,
+p.lost-password a:hover {
+  color: #333;
+}
+
+.coupon-content {
+  border: 1px solid #e5e5e5;
+  display: none;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.coupon-info p.coupon-text {
+  margin-bottom: 15px
+}
+
+.coupon-info p {
+  margin-bottom: 0
+}
+
+.coupon-info p.form-row-first label,
+.coupon-info p.form-row-last label {
+  display: block;
+  color: inherit;
+}
+
+.coupon-info p.form-row-first label span.required,
+.coupon-info p.form-row-last label span.required {
+  color: red;
+  font-weight: 700;
+}
+
+.coupon-info p.form-row-first input,
+.coupon-info p.form-row-last input {
+  border: 1px solid #ccc;
+  height: 34px;
+  margin: 0 0 14px;
+  max-width: 100%;
+  padding: 0 0 0 10px;
+  width: 370px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.coupon-info p.form-row input[type="submit"]:hover,
+p.checkout-coupon input[type="submit"]:hover {
+  background: #333 none repeat scroll 0 0;
+}
+
+.coupon-info p.form-row input[type="checkbox"] {
+  height: inherit;
+  position: relative;
+  top: 2px;
+  width: inherit;
+}
+
+.form-row > label {
+  margin-top: 7px;
+}
+
+p.lost-password {
+  margin-top: 15px;
+}
+
+p.lost-password a {
+  color: #6f6f6f;
+  font-size: 12px;
+}
+p.checkout-coupon input[type=text] {
+  height: 36px;
+  padding-left: 10px;
+  width: 170px;
+}
+
+p.checkout-coupon input[type="submit"] {
+  background: #333 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  color: #fff;
+  height: 36px;
+  margin-left: 6px;
+  padding: 5px 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: inherit;
+  cursor: pointer;
+}
+
+.coupon-checkout-content {
+  margin-bottom: 30px;
+  display: none;
+}
+
+.kiosk-checkbox-form h3 {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  background: #f6f6f6;
+  font-size: 23px;
+}
+
+.ship-different-title h3 label {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+  margin-top: 8px;
+}
+
+.country-select label,
+.country-select label,
+.checkout-form-list label {
+  color: #333;
+  margin: 0 0 5px;
+  display: block;
+  font-weight: 500;
+}
+
+.country-select label span.required,
+.checkout-form-list label span.required {
+  color: #333
+}
+
+.country-select select {
+  border: 1px solid #ddd;
+  height: 50px;
+  padding-left: 10px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f6f6f6;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.checkout-form-list label {
+  color: #333;
+}
+.checkout-form-list input[type=text],
+.checkout-form-list input[type=password],
+.checkout-form-list input[type=email] {
+  background: #f6f6f6 none repeat scroll 0 0;
+  border: 1px solid #ebebeb;
+  border-radius: 0;
+  height: 50px;
+  width: 100%;
+  padding: 0 0 0 10px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.checkout-form-list input[type="checkbox"] {
+  display: inline-block;
+  height: inherit;
+  margin-right: 10px;
+  position: relative;
+  top: 0;
+  width: inherit;
+}
+
+.create-acc label {
+  color: #333;
+  display: inline-block;
+}
+
+.create-accounts {
+  display: none
+}
+
+.ship-different-title h3 label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.order-notes textarea {
+  height: 90px;
+  padding: 15px;
+  width: 100%;
+  background: #fff;
+}
+
+.ship-different-title input {
+  margin-top: 0;
+  vertical-align: middle;
+}
+
+#ship-box-info {
+  display: none
+}
+
+.kiosk-order {
+  background: #f2f2f2 none repeat scroll 0 0;
+  padding: 40px;
+  margin-top: 25px;
+}
+
+.kiosk-order h3 {
+  font-size: 25px;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  width: 100%;
+  font-weight: 500;
+}
+
+.kiosk-order-table table {
+  background: #fff;
+  border: medium none;
+  width: 100%;
+}
+
+.kiosk-order-table table th,
+.kiosk-order-table table td {
+  border-bottom: 1px solid #d8d8d8;
+  border-right: medium none;
+  font-size: 14px;
+  padding: 15px 20px;
+}
+
+.kiosk-order-table table th {
+  border-top: medium none;
+  font-weight: normal;
+  text-transform: capitalize;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.kiosk-order-table table .shipping ul li input {
+  position: relative;
+  top: 2px;
+}
+
+.kiosk-order-table table .shipping th {
+  vertical-align: top;
+}
+
+.kiosk-order-table table .order-total th {
+  border-bottom: medium none;
+  font-size: 18px;
+}
+
+.kiosk-order-table table .order-total td {
+  border-bottom: medium none;
+}
+
+.kiosk-order-table table tr.cart_item:hover {
+  background: #F9F9F9
+}
+
+.kiosk-order-table table tr.order-total td span {
+  color: #333;
+  font-size: 20px;
+}
+.kiosk-payment {
+  margin-top: 40px;
+}
+.payment-accordion h3 {
+  border-bottom: 0 none;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+
+.payment-accordion h3 a {
+  color: #6f6f6f;
+  font-size: 14px;
+  padding-left: 25px;
+  position: relative;
+  text-transform: capitalize;
+  text-decoration: none
+}
+.payment-accordion .panel-default {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background: #fff;
+}
+
+.payment-accordion h3 a:before,
+.payment-accordion h3.open a:after {
+  content: "Ã¯Ââ€¢";
+  display: inline-block;
+  font-family: fontawesome;
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  top: -2px;
+}
+
+.payment-accordion h3.open a:after {
+  content: "\f056";
+}
+.payment-content p {
+  font-size: 13px;
+}
+
+.payment-accordion img {
+  height: 60px;
+  margin-left: 15px;
+}
+
+.kiosk-payment-btn input {
+  background: #333;
+  border: medium none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  height: 50px;
+  margin: 20px 0 0;
+  padding: 0;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  cursor: pointer;
+}
+
+.kiosk-payment-btn input:hover {
+  background: #444
+}
+
+.sub-heading {
+  padding-bottom: 27px;
+  color: #555;
+  font-weight: 500;
+  font-size: 25px;
+}
+.product-total {
+  text-align: right;
+}

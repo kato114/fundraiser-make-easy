@@ -1,0 +1,514 @@
+/*----------------------------------------*/
+/* 13. Blog CSS
+/*----------------------------------------*/
+.newsletter.blog-newsletter {
+  margin-top: 0;
+  padding-top: 70px;
+}
+.blog-area .group-title {
+  margin-bottom: 30px;
+}
+.blog-content {
+  background: #fff;
+  padding: 15px 20px;
+}
+.blog-details .blog-content {
+  padding: 0px !important;
+}
+.blog-meta {
+  margin-bottom: 12px;
+}
+.blog-meta ul li {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.blog-meta ul li span{
+  color: #363f4d;
+
+}
+.blog-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog-title a {
+  font-weight: bold;
+}
+.readmore a{
+  font-size: 16px;
+}
+.blog-title:hover a,.blog-meta a:hover,.readmore a:hover {
+  color: #333;
+}
+
+.blog-img a {
+  position: relative;
+  display: block;
+}
+
+.blog-img a:before {
+  background-color: rgba(255, 255, 255, 0.4);
+  bottom: 0;
+  content: "";
+  height: 0;
+  left: 0;
+  margin: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.4s ease 0s;
+  width: 0;
+  z-index: 1;
+}
+
+.single-blog:hover .blog-img a:before {
+  height: 100%;
+  width: 100%;
+}
+.single-blog {
+  border: 1px solid #ddd;
+}
+.blog-area.off-white-bg .single-blog {
+  margin-bottom: 30px;
+}
+
+.blog-img img {
+  width: 100%;
+}
+.kiosk-blog .owl-nav div,.kiosk-related-product .owl-nav div{
+  top: -59px;
+}
+.kiosk-blog .owl-nav div {
+  display: none !important;
+}
+.blog-content h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.blog-content p {
+  margin-bottom: 14px;
+}
+.blog-details .blog-meta {
+  margin-bottom: 15px;
+}
+/* blog pagination css */
+
+.blog-pagination li {
+  display: inline-block;
+  margin-right: 1px;
+}
+
+.blog-pagination li a {
+  display: block;
+  font-size: 16px;
+  color: 808080;
+  border: 1px solid #e7e7e7;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  border-radius: 10px 0px 10px 0px;
+}
+
+.blog-pagination li.active a,
+.blog-pagination li a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.search-box-view.fix.blog-search > form {
+  position: relative;
+}
+
+.social-link-list li {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.social-link-list li a {
+  color: #666;
+}
+
+.social-link-list li i {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-link-list li i:hover {
+  color: #333;
+}
+
+.blog-pager .pager {
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-pager .pager li > a {
+  background-color: #f6f6f6;
+  border: medium none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0 20px;
+  text-transform: capitalize;
+  line-height: 44px;
+  display: block;
+}
+
+.blog-pager .pager li:hover > a {
+  background: #333;
+  color: #fff;
+}
+
+.blog-pager .pager li.previous i {
+  margin-right: 5px;
+}
+.blog-img.blog-single-img{
+  margin-bottom: 0;                                                   
+}
+.category-text {
+  font-size: 16px;
+}
+.blog-pager .pager li.next i {
+  margin-left: 5px;
+}
+
+.blog-img.blog-single-img img {
+  border: 1px solid #ebebeb;
+}
+
+.blog-pager .pager li.previous i,
+.blog-pager .pager li.next i {
+  vertical-align: middle;
+}
+
+.blog-single-img img {
+  margin-bottom: 20px;
+}
+
+.single-related-post img {
+  width: 100%;
+}
+
+.blog-related-post .single-related-post {
+  margin-bottom: 40px;
+}
+
+.single-content h3 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.comment-area {
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+}
+.comment-details h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.comment-details span {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.single-comment {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.single-comment .reply {
+  border-radius: 50px;
+  bottom: 0;
+  color: #4c4c4c;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  right: 0;
+  text-align: right;
+  text-transform: uppercase;
+  float: right;
+}
+
+.submit-comment .comment {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+  color: #666666;
+  font-size: 14px;
+  height: 178px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+.half-left {
+  width: 50%;
+  float: left;
+  padding-right: 15px;
+}
+
+.half-right {
+  width: 50%;
+  float: left;
+  padding-left: 15px;
+}
+
+.submit-comment h3 {
+  color: #222222;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.submit-comment input {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+  color: #666;
+  font-size: 14px;
+  height: 48px;
+  letter-spacing: 1px;
+  padding: 2px 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.submit-comment .submit {
+  text-transform: uppercase;
+  background: #222;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.search-box-view.blog-search .submit:hover,
+.submit-comment .submit:hover {
+  background: #333;
+  color: #fff;
+}
+
+.recent-post .sidebar-title {
+  border-bottom: medium none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top:0px;
+  padding-bottom: 5px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.blog-details blockquote {
+  border-left: 8px solid #ccc;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.blog-details blockquote p {
+  color: #555;
+  font-size: 19px;
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+.post-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 13px;
+  position: relative;
+}
+
+.post-info-left {
+  padding-left: 85px;
+}
+
+.post-date {
+  background: #333 none repeat scroll 0 0;
+  color: #fefefe;
+  font-size: 14px;
+  font-weight: 400;
+  height: 70px;
+  left: 0;
+  padding: 15px 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 70px;
+  z-index: 99;
+}
+
+.post-date span {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.blog-details .semi-title {
+  margin: 30px 0 20px;
+}
+.semi-title,
+.semi-title a {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.post-info a {
+  color: #424242;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.post-info a:hover {
+  color: #333;
+}
+
+.post-info-right a {
+  padding-left: 20px;
+}
+
+.post-info-right {
+  float: right;
+  text-align: right;
+}
+
+.left-post-thumb {
+  border: 1px solid #ebebeb;
+  width: 70px;
+}
+
+.left-post-thumb img {
+  width: 100%;
+}
+
+.right-post-thumb h4 {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.right-post-thumb h4 a:hover {
+  color: #333;
+}
+
+.right-post-thumb span {
+  color: #000;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+.categorie-list > li {
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 12px;
+  padding-bottom: 12px
+}
+
+.categorie-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.categorie-list li:hover a {
+  color: #333;
+}
+
+.blog-pagination {
+  text-align: center;
+}
+
+.tag-list {
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
+.tag-list li {
+  display: inline-block;
+}
+
+.tag-list li a {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 0 6px 12px 6px;
+  padding: 7px 16px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #ddd;
+  text-transform: capitalize;
+}
+
+.tag-list li:hover a {
+  background: #fff;
+  color: #333;
+}
+
+.blog-page .single-blog{
+  margin-bottom: 30px;
+}
+
+/* blog page contact form css*/
+.kiosk-blog-input input {
+  background: #f5f5f5 none repeat scroll 0 0;
+  border: 1px solid #e8e8e8;
+  color: #888;
+  float: left;
+  font-size: 14px;
+  height: 45px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.kiosk-message textarea {
+  background: #f5f5f5 none repeat scroll 0 0;
+  border: 1px solid #e8e8e8;
+  font-size: 14px;
+  height: 300px;
+  padding: 15px;
+  width: 100%;
+  color: #888;
+}
+
+.kiosk-submit-area input {
+  background: #333 none repeat scroll 0 0;
+  border: 1px solid #333;
+  border-radius: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 45px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.kiosk-submit-area input:hover {
+  background: #363f4d;
+  border-color: #363f4d;
+}
